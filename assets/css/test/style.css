@@ -1,14 +1,10 @@
-
-/* Section container */
 .container{
     width: 960px;
     margin: 0 auto;
 }
-/* Main body container */
 #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
-    background-color: saddlebrown;
   }
 
 h1,
@@ -19,34 +15,24 @@ p {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: burlywood;
-  background-color: saddlebrown;
 }
 
 h2,
 h3 {
   font-size: 22px;
-} 
- #masthead { 
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: saddlebrown;
-    background: saddlebrown;
-    border-bottom: 2px solid #ccc;
-}
-/* Main body style */
+} */
+
+
 body{
 
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
     line-height: 34px;
     color: burlywood;
-    background-image: url("../images/wheat.png");
+    background-image: url("../images/wheat.png")
     
 }
-/* Name header style at top of page */
+
 #name{
     color: burlywood;
     float: left;
@@ -55,7 +41,7 @@ body{
     padding: 0px 0px 20px 0px;
 }
 
-/* About, Contacts and Portfolio header style */
+
 #h4{
     color: burlywood;
     float: left;
@@ -66,18 +52,33 @@ body{
     
 }
 
-/* My picture style */
+#about{
+    float: left;
+    background-color: white;
+    margin: 9.9% 0% 4% -81%;
+    padding: .7%;
+    width: 296px;
+    color: burlywood;
+    border-left-color: burlywood;
+    border-left-style: ridge;
+    border-left-width: 5px;
+    border-top-color: burlywood;
+    border-top-style: ridge;
+    border-top-width: 5px;
+    
+
+}
+
 .me{
     float: left;
     width: 200px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
-    background-color: saddlebrown;
     
 }
 
-/* section  */
+
 
 #section{
     float: left;
@@ -85,7 +86,7 @@ body{
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
-    background-color: saddlebrown;
+    background: saddlebrown;
     border: 1px solid #ddd;
     
 }
