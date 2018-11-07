@@ -83,9 +83,29 @@ body{
     width: 100%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 3% 0 40px;
     background-color: saddlebrown;
     border: 1px solid #ddd;
     
 }
 
+/*Contact Page */
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+textarea {
+    height: 400px;
+    
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: burlywood;
+    border: 0 none;
+  }
