@@ -110,3 +110,10 @@ textarea {
     background: burlywood;
     border: 0 none;
   }
+
+  /*Portfolio Page */
+
+  .imagefooter{
+    background-color:saddlebrown;
+    padding: 3%;
+  }
