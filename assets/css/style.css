@@ -4,12 +4,7 @@
     width: 960px;
     margin: 0 auto;
 }
-/* Main body container */
-/*#main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-    background-color: saddlebrown;
-  }*/
+
 
 h1,
 h2,
@@ -26,16 +21,7 @@ h2,
 h3 {
   font-size: 22px;
 } 
-/* #masthead { 
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: saddlebrown;
-    background: saddlebrown;
-    border-bottom: 2px solid #ccc;
-} */
+
 /* Main body style */
 body{
 
@@ -117,3 +103,8 @@ textarea {
     background-color:saddlebrown;
     padding: 3%;
   }
+
+  #pics{
+    margin: 3%;
+  }
+
